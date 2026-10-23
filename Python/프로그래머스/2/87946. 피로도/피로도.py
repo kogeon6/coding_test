@@ -13,7 +13,7 @@ def solution(k, dungeons):
                 count+=1
                 if count>answer:
                     answer = count
-            else:
+            elif j==len(i)-1 or i[j][0]>life:
                 
                 life=k
                 count = 0
